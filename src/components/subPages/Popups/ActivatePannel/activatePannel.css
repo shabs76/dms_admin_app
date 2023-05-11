@@ -1,0 +1,71 @@
+.ActivatePannelMain{
+    width: 100%;
+}
+
+.TopSectActivatePannel{
+    padding-top: 5px 10px;
+    border-bottom: 1px solid #BEE8E1;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.imageSectTopSec{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #BEE8E1;
+    border: 1px solid #008134;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.ImageHolderActivatePannel{
+    font-size: 26px;
+    font-weight: 700;
+    color: #008134;
+}
+
+.textSectTopSectActivPannel{
+    width: calc(100% - 60px);
+}
+
+.HeadTopsecActivatPanl{
+    font-size: 15px;
+}
+
+.textTopSectActivatePannel{
+    font-size: 13px;
+    color: #333;
+}
+
+.InfoSectActivatePannel{
+    width: 100%;   
+}
+
+.buttonHolderActivatePannel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.ButtonActivatePannel{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.cancelButtonActivePannel{
+    border: #008134 1px solid;
+    color: #008134;
+    background-color: transparent;
+    margin-right: 10px;
+}

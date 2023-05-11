@@ -1,0 +1,137 @@
+.IntroSectionMainIndstries{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0 20px;
+    background-color: #ffffff;
+}
+
+.leftSectionIntroSection{
+    width: calc(50% - 20px);
+}
+
+.MajorPageHeaderIntroSection{
+    font-size: 3rem;
+}
+
+.IntroParagraphIndustry{
+    width: 100%;
+}
+
+.ButtonHolderIntroIndustry{
+    width: 100%;
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.ButtonGetingStartedIntroIndustry{
+    height: 45px;
+    width: 120px;
+    border-radius: 23px;
+    color: #ffffff;
+}
+
+.rightSectionIntroSection{
+    width: calc(50% - 20px);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    overflow: hidden;
+}
+
+.IntroImageReferenceIntroSection{
+    width: 20%;
+    height: 20%;
+}
+
+.IntroImage1HolderIntroSectionIndustries{
+    width: 200%;
+    position: absolute;
+    left: -120%;
+    top: -120%;
+}
+
+.IntroImage2HolderIntroSectionIndustries{
+    width: 200%;
+    position: absolute;
+    left: 10%;
+    top: -20%;
+}
+
+.IntroImage1BackIntroSectionIndustries{
+    width: calc(100% - 40px);
+    top: 3px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: #008134 solid 1px;
+    left: 20px;
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+}
+
+.ImageHolderIndexElevatorInstroSection{
+    width: 100%;
+}
+.IntroImageIntroSectionIndustries{
+    width: 100%;
+    border-radius: 20px;
+    border: #333 1px solid;
+}
+
+.IntroImage2BackIntroSectionIndustries{
+    width: calc(100% - 40px);
+    bottom: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    left: 20px;
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+}
+
+.greenDecorBackGroundHolderIntroSection{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.greenDecorBackGroundIntroSection{
+    width: 65%;
+    height: 90%;
+    background-color: #008134;
+    border-radius: 15px;
+    left: 40px;
+}
+
+/* smart phones */
+
+@media only screen and (max-width: 767px) {
+    .IntroSectionMainIndstries{
+        flex-wrap: wrap;
+    }
+
+    .leftSectionIntroSection{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .rightSectionIntroSection{
+        width: 100%;
+        display: none;
+    }
+}

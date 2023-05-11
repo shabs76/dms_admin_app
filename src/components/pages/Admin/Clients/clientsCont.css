@@ -1,0 +1,66 @@
+.ClientsContMain{
+    width: 100%;
+    padding-right: 20px;
+}
+
+.ClientTopSectionClientCont{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.SectionNameClientCont{
+    font-size: 2.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.searchSectionHolderClientCont{
+    width: 100%;
+    max-width: 420px;
+}
+
+.ClientsCompLoopHolderClientCont{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.ClientCompLoopHolderClientCont{
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.ButtonNewOldHolderClients{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.clientTypeSelector{
+    height: 35px;
+    border-radius: 18px;
+    width: 125px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.allClientsButtonSelector{
+    color: #ffffff;
+}
+
+.newClientsButtonSelector{
+    border: 1px solid #8EC9F1;
+    color: #8EC9F1;
+    background-color: transparent;
+}
+
+.clientTypeSelector:hover {
+    background-color: #8EC9F1;
+    color: #ffffff;
+}

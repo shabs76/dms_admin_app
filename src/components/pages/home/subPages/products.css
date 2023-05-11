@@ -1,0 +1,93 @@
+.ProductsMainClass{
+    width: 100%;
+    padding-top: 70px;
+}
+
+.ContentHolderProductsComp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.imageFirstProduct{
+    flex-direction: row-reverse;
+}
+
+.textSectionProductComp{
+    width: 40%;
+    padding: 0px 15px;
+}
+
+.productHeadProductComp{
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.productParagraphProductComp{
+    text-align: justify;
+}
+
+.imageSectionProductComp{
+    width: 40%;
+    padding: 0px;
+}
+
+.ImageTalkHolderProductHolder{
+    width: 80%;
+}
+
+.marginleftAutoProductComp{
+    margin-left: auto;
+}
+
+.ImageTalkProductProductComp{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.graphiteHolderProductComp{
+    width: 80%;
+}
+
+.darkGreenCircleControler{
+    position: absolute;
+    top: -20px;
+    width: 70%;
+    border: 50px solid #008134;
+    right: 10px;
+    display: none;
+}
+
+.lightGreenCircleControler{
+    position: absolute;
+    top: 20px;
+    display: none;
+}
+
+/* smart phones */
+
+@media only screen and (max-width: 767px) {
+    .ContentHolderProductsComp{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .imageFirstProduct{
+        flex-direction: column-reverse;
+    }
+    .textSectionProductComp{
+        width: 100%;
+        padding: 0;
+    }
+
+    .productHeadProductComp{
+        font-size: 2rem;
+    }
+    .imageSectionProductComp{
+        width: 100%;
+    }
+    .marginleftAutoProductComp, .ImageTalkHolderProductHolder{
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,92 @@
+.PaymentsContMain{
+    width: 100%;
+}
+
+.PaymentTopSectionPaymentCont{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.SectionNamePaymentCont{
+    font-size: 2.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.ExpiringDateOfSubscription{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.ExperingDatevaluePayment{
+    margin-left: 20px;
+    color: #008134;
+    font-weight: 700;
+}
+
+.TitleExpireDate{
+    width: 210px;
+    background-color: #BEE8E1;
+    padding-left: 10px;
+    height: 100%;
+    line-height: 50px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.PaymentReceiptHolder{
+    width: 100%;
+}
+
+.PaymentRecieptsHeader{
+    color: #555;
+}
+
+.PaymentActionButtonsHolder{
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+.PaymentActionButton{
+    height: 35px;
+    color: #ffffff;
+    width: 150px;
+    border-radius: 18px;
+}
+
+.PaymentActionButton:hover{
+    color: #ffffff;
+    background-color: #008134;
+}
+
+.NewPaymentButtonPaymentCon{
+    background-color: transparent;
+    border: #008134 1px solid;
+    color: #008134;
+    margin-left: 10px;
+}
+
+.PaymentReceiptContHolder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.ReceiptLoopHolder{
+    width: 100%;
+    max-width: 300px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}

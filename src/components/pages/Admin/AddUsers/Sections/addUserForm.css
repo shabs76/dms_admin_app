@@ -1,0 +1,55 @@
+.AddUserFormMain{
+    width: 100%;
+}
+
+.AddUserForm{
+    width: 100%;
+}
+
+.AddUserFormInputsHolder{
+    width: 100%;
+}
+
+.EmailCreatorHolderAdduser{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.EmailNameInputHolderAddUser{
+    width: 180px;
+}
+
+.EmailDomainHolderAddUser{
+    width: calc(100% - 185px);
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.CreateUserBtnHolderAddUser{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.CreateUserBtnAddUser{
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    color: #fff;
+}
+.ResetFormButtonHolder{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.resetButtonCreateUser{
+    background-color: #BEE8E1;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 15px;
+}

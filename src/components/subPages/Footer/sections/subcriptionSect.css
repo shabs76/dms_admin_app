@@ -1,0 +1,46 @@
+.SubScriptionSectMain{
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #008134;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SubNameNewsLater{
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    width: calc(100% - 370px);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.SubInputAndAction{
+    width: 300px;
+}
+
+.SubscriptionForm{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputSubScribe{
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #F4FAF7;
+    border: #008134 1px solid;
+    padding-left: 10px;
+}
+
+.ButtonSubNewletter{
+    background-color: #F4FAF7;
+    height: 40px;
+    border-radius: 20px;
+    width: 70px;
+}

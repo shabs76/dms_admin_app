@@ -1,0 +1,19 @@
+.SummaryRowMain{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.NameOfRowSummary{
+    margin-right: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.ValueOfRowSummary{
+    font-size: 15px;
+    color: #333;
+}

@@ -1,0 +1,24 @@
+.TwoOptSelectButtonMain{
+    background-color: #ffffff;
+    height: 35px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    box-shadow: 0px 22.0125px 22.0125px -16.5094px rgba(56, 50, 124, 0.08);
+    padding: 0;
+    border: #0081347c 1px solid;
+}
+
+.OptContentHolderTwoOptBtn{
+    width: calc(50% - 2px);
+    border-radius: 18px;
+    height: 100%;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.activeOptTwoOptButtn{
+    background-color: #008134;
+    color: #ffffff;
+}

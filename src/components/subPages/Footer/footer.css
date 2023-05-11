@@ -1,0 +1,145 @@
+.FooterMain{
+    width: 80%;
+}
+
+.FooterTopCont{
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SubScriptionDivFooter{
+    width: 100%;
+    max-width: 700px;
+}
+
+.FooterBottomSect{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.BrentlesFooterSection{
+    width: 280px;
+}
+
+.logoAndNameSectionFooter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.LogosectionFooter{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.LogoImageFooter{
+    width: 50px;
+}
+
+.BrentlesNameFooter{
+    font-size: 35px;
+    color: #5AAA94;
+}
+
+.BrentlesServiceInfoFooter{
+    font-size: 15px;
+}
+
+.legaInfoSectionFooter{
+    width: 280px;
+}
+
+.SectionHeaderFooter{
+    font-size: 28px;
+    color: #545454;
+    margin-bottom: 15px;
+}
+
+.ServiceLinksHolder{
+    padding-left: 10px;
+}
+
+.LinkHolderNameFooter{
+    height: 35px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #545454;
+}
+
+.ContactInfoSectionFooter{
+    width: 300px;
+}
+
+.ServiceLinksHolderFooter{
+    width: 100%;
+}
+
+.contactInfoDivFooter{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.iconHolderContactFooter{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconHolderContactFooter span {
+    color: #5AAA94;
+}
+
+.NameofContact{
+    font-size: 18px;
+    color: #545454;
+    font-weight: 500;
+}
+
+.socialMediaHeader{
+    margin-bottom: 10px;
+    color: #545454;
+}
+
+.SocialMediaDivFooter{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.socialMediaLinkActionFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 5px;
+    opacity: 0.5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.socialMediaLinkActionFooter:hover{
+    opacity: 1;
+    background-color: #0081348f;
+}

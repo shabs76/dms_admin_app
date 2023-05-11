@@ -1,0 +1,53 @@
+.ServiceHomeMain{
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ServiceHeadServiceComp{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.ServicesHolderAnArranger{
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    overflow: auto;
+    scrollbar-color: #E3F3E4 #FAFAFA;
+    scrollbar-width: thin;
+}
+  
+
+.ServicesHolderAnArranger::-webkit-scrollbar {
+    width: 5px; /* Width of scrollbar */
+    height: 5px; /* Height of scrollbar */
+}
+
+.ServicesHolderAnArranger::-webkit-scrollbar-track {
+    background-color: #FAFAFA; /* Color of the track */
+}
+
+.ServicesHolderAnArranger::-webkit-scrollbar-thumb {
+    background-color: #E3F3E4; /* Color of the thumb */
+    border-radius: 3px; /* Rounded corners */
+}
+
+.ServicesHolderAnArranger::-webkit-scrollbar-thumb:hover {
+    background-color: #999999; /* Color of the thumb on hover */
+}
+  
+  /* Style the thumb on hover */
+.ServicesHolderAnArranger::-moz-scrollbar-thumb:hover {
+    background-color: #999999; /* Color of the thumb on hover */
+}
+
+/* small smartphones */
+
+@media only screen and (max-width: 767px) {
+    .ServiceHomeMain{
+        width: 100%;
+    }   
+}

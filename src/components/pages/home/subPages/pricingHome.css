@@ -1,0 +1,137 @@
+.PricingHomeMainComp{
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px 10px;
+    min-height: 630px;
+}
+
+.PricingStripContentHolder{
+    width: 100%;
+}
+
+.topPricingStripPriceComp{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.headPricingStripPriceComp{
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.PriceValueStripPriceComp{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.StartPriceValueStripPriceComp{
+    font-size: 13px;
+}
+
+.ActualPriceValueStripPriceComp{
+    padding-left: 8px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.durationPriceValueStripPriceComp{
+    font-size: 14px;
+    padding-left: 13px;
+    color: #008134;
+}
+
+.BundleInfoPriceStripComp{
+    font-size: 14px;
+    margin: 30px 0;
+}
+
+.FeaturesSectionPriceStripComp{
+    width: 100%;
+}
+
+.featureMainDivPriceStrip{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.featureIconHolder{
+    width: 18px;
+    height: 18px;
+    background-color: #008134;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.featureIconHolder span {
+    font-size: 16px;
+}
+
+.FeatureNameValsPriceStrip{
+    width: calc(100% - 20px);
+}
+
+.StripPriceNameFeature{
+    font-size: 15px;
+}
+
+.StripPriceValueFeature{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.ActionNameButtonAreaStripPrice{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    left: 0;
+}
+
+.ActionNameButtonStripPrice{
+    height: 35px;
+    width: 140px;
+    color: #008134;
+    background-color: transparent;
+    border: #008134 1px solid;
+}
+
+.BusinessProStyleStrip{
+    background-color: #E3F3E4;
+    box-shadow: 0px 44.025px 67.8719px -22.0125px rgba(19, 17, 38, 0.1);
+}
+.enterpriseStyleStrip{
+    background-color: #008134;
+    box-shadow: 0px 44.025px 67.8719px -22.0125px rgba(56, 50, 124, 0.1);
+}
+
+.IconenterpriseStyleStrip{
+    background-color: #ffffff;
+}
+
+.IconenterpriseStyleStrip span{
+    color: #008134;
+}
+.ButtonenterpriseStyleStrip{
+    background-color: #ffffff;
+}
+
+.ButtonBusinessProStyleStrip{
+    background-color: #008134;
+    color: #ffffff;
+}
+.BusinessPlusStyleStrip{
+    background-color: #ffffff;
+    box-shadow: 0px 44.025px 67.8719px -22.0125px rgba(56, 50, 124, 0.08);
+}
+.startupStyleStrip{
+    border: 1px solid #E3F3E4;
+}

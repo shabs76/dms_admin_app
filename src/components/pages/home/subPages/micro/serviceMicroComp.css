@@ -1,0 +1,29 @@
+.ServiceMicroCompMainComp{
+    min-width: 190px;
+    margin-right: 25px;
+}
+
+.serviceMicroCompIconHolder{
+    width: 50px;
+    background-color: #E3F3E4;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+
+.serviceMicroCompIconHolder span {
+    font-size: 32px;
+    color: #008134;
+}
+
+.serviceMicroHead{
+    font-size: 1rem;
+}
+
+.ServiceMicroParagraph{
+    font-size: 13px;
+}

@@ -1,0 +1,156 @@
+.OffencesMain{
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.TopNavigatOffences{
+    width: calc(100% - 380px);
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+.headSectionOffences{
+    width: 100%
+}
+
+.headerOffences{
+    font-size: 2.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.NavigationOffences{
+    width: calc(50% - 10px);
+    max-width: 300px;
+}
+
+.buttonIconsOffences{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.iconButtonNaigation{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 10px;
+    background-color: transparent;
+}
+.iconButtonNaigation:hover {
+    background-color: #BEE8E1aa;
+
+}
+.iconButtonNaigation span {
+    color: #008134;
+    font-size: 26px;
+}
+
+.activeButtonNavigation{
+    background-color: #BEE8E1aa;
+}
+
+.contentOffencesHolder{
+    width: 100%;
+}
+
+.OffencesHoldersTableAndView{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.OffencesHoldersTable{
+    width: calc(100% - 380px);
+}
+
+.ContentSearchOffences{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SearchInputBoxOffences{
+    width: 400px;
+    height: 45px;
+    border: 1px solid #008134;
+    border-radius: 10px;
+}
+
+.searchIpuntOffences{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.searchButtonOffences{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 45px;
+    border-radius: 10;
+    background-color: #BEE8E1;
+}
+
+.searchButtonOffences span {
+    color: #008134;
+}
+
+
+
+.OffencesUnorderList{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    margin-top: 50px;
+    display: block;
+    padding-left: 20px;
+}
+
+
+.OffencesHoldersView{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: hidden;
+    height: calc(100vh - 40px);
+    position: fixed;
+    top: 20px;
+    right: 10px;
+}
+
+.AddVehicle{
+    z-index: 150;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 380px;
+}
+
+.AddVehicle span{
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+}

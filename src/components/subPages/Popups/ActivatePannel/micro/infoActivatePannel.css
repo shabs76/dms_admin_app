@@ -1,0 +1,30 @@
+.InfoActivatePannelMain{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.iconHolderInfoActivatePannel{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin-right: 5px;
+}
+
+.iconHolderInfoActivatePannel span{
+    font-size: 22px;
+    color: #555;
+}
+
+.infoHolderInfoActivatePannel{
+    font-weight: 600;
+    color: #222;
+    text-transform: capitalize;
+}

@@ -1,0 +1,34 @@
+.InfoEnterpriseMain{
+    width: 100%;
+}
+
+.InfoEnterpriseHead{
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.InfoEnterpriseMinHead{
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.callUseSectionInfoEnterprise{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.callUseSectionInfoEnterprise span {
+    font-size: 36px;
+}
+
+.CallInfoTimeInfoEnterprise{
+    width: 100%;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 20px;
+}

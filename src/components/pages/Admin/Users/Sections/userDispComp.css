@@ -1,0 +1,114 @@
+.UserDispCompMain{
+    width: 100%;
+    max-width: 330px;
+    padding-top: 25px;
+}
+
+.UserDispContentHolder{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 43px;
+    padding-left: 15px;
+}
+
+.ImagLatterProfileHolderUserDisp{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: #bee8e1;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 6px 5px rgba(0,0,0,0.2);
+    top: -25px;
+    left: 20px;
+    text-transform: capitalize;
+}
+
+.ImagLatterProfileUserDisp{
+    color: #008134;
+}
+
+.userNameSectionUserDispComp{
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.userNameUserDispComp{
+    font-size: 1.3rem;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+.UserDetailsListUserDispComp{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+.UserDetailListUserDispComp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.UserDetailTitleUserDispComp{
+    font-size: 17px;
+    font-weight: 500;
+    color: #444;
+}
+
+.UserDetailValueUserDispComp{
+    font-size: 15px;
+    color: #444;
+    margin-left: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ButtonActsUserDispComp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.UserDispButtons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #bee8e1;
+    border: #ff3636 solid 1px;
+}
+
+.editButtonUserDisp{
+    margin-right: 10px;
+    border: #008134 solid 1px;
+}
+
+.UserDispButtons span{
+    font-size: 20px;
+    color: #ff3636;
+}
+
+.editButtonUserDisp span{
+    color: #008134;
+}

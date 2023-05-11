@@ -1,0 +1,29 @@
+.CreateAddonMain{
+    width: 100%;
+    margin-top: 10px;
+    max-width: 330px;
+}
+
+.CreateAddonDetailsForm{
+    width: 100%;
+}
+
+.inputsCreateAddonHolder{
+    width: 100%;
+}
+
+.createAddonButtonHolder{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.createAddonButton{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    color: #ffffff;
+}

@@ -1,0 +1,121 @@
+.ProfileSettingsMain{
+    width: 100%;
+}
+
+.SettingsTopSection{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.SectionNameSettingCont{
+    font-size: 2.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.CompanylogoSectionProfileSettings{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.CompanyLogoheaderProfileSettings{
+    color: #555;
+    margin-bottom: 7px;
+}
+
+.changeCompanyLogoContHolderProfileSetting{
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.CompanyLogoHolderProfileSettings{
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border: 1px solid #bee8e1;
+}
+
+.ImageCompanyLogoSetings{
+    width: 100%;
+}
+
+.ChangeCompanyLogoProfileSttingbutn{
+    display: block;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 18px;
+    color: #ffffff;
+}
+
+.ChangePassWordProfileSettingSection{
+    width: 100%;
+    max-width: 320px;
+}
+
+.ChangePasswordheadProfileSetting{
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.ChangePasswordFormProfileSettings{
+    width: 100%;
+}
+
+.InputsProfileSettingsHolder{
+    width: 100%;
+}
+
+.ChangePasswordButtonHolderSettings{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.ChangePasswordButtonSettings{
+    width: 180px;
+    color: #ffffff;
+    height: 35px;
+    border-radius: 18px;
+}
+
+.PassStrengPassChange{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.PasswordStrengthTextPassChange{
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.colorCodeStrengthPassChange{
+    height: 15px;
+    width: 50px;
+    border-radius: 4px;
+    background-color: #ff3636;
+    margin-right: 10px;
+}
+
+.NameofStrengthPassChange{
+    font-size: 14px;
+}
+
+.strongCodeStrengthPassChange{
+    background-color: #008134;
+}
+
+.PassHintProfileSettings{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+}

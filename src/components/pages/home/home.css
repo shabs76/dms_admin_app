@@ -1,0 +1,112 @@
+.ProductsHomePage{
+    width: 100%;
+    padding: 10px;
+    background-color: #F4FAF7;
+    height: 100%;
+}
+
+.ProductCompHolderHome{
+    width: 100%;
+}
+
+.servicesSectionHomePage{
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.PricingSectionHome{
+    width: 100%;
+    padding: 10px;
+    background-color: #F4FAF7;
+    display: flex;
+    justify-content: center;
+}
+
+.PricingSectionContentHolderHome{
+    width: 80%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.TopPricingSectionHome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.TopSectionPricingTextAndHead{
+    width: calc(75% - 20px);
+    min-width: 220px;
+}
+
+.PricingSectionHeaderHome{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.PricingTextGreenPricingSectionHome{
+    color: #008134;
+}
+
+.PricegroupHolderHomePage{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.PriceStripHolderLoop{
+    width: calc(25% - 10px);
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+.CustomPricingSection{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.FooterSectionHome{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #F4FAF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* small smartphones */
+
+@media only screen and (max-width: 767px) {
+    .PricingSectionContentHolderHome{
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .TopPricingSectionHome{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .TopSectionPricingTextAndHead{
+        width: 100%;
+    }
+
+    .PricingSectionHeaderHome{
+        font-size: 1.6rem;
+    }
+
+    .PricegroupHolderHomePage{
+        justify-content: center;
+    }
+
+    .PriceStripHolderLoop{
+        width: 95%;
+    }
+
+}

@@ -1,0 +1,17 @@
+.MetricMainDiv{
+    width: 100%;
+}
+
+.MetricTopSection{
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #bee8e1;
+    width: 100%;
+}
+
+.MetricHeader{
+    width: 100%;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+.RowTablesOffences{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 4px;
+    border-bottom: 1px solid #BEE8E1aa;
+    cursor: pointer;
+}
+
+.RowTablesOffences:hover{
+    background-color: #BEE8E155;
+    border-radius: 3px;
+}
+
+.activeOffenceRowTable{
+    background-color: #BEE8E155;
+    border-radius: 3px;
+}
+
+.OffenceInfoRowTable {
+    width: calc(100% - 120px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.iconHolderDivOffences{
+    width: 30px;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.iconHolderDivOffences span{
+    color: #008134aa;
+    font-size: 22px;
+}
+
+.NameOfOffencesRowTables {
+    width: calc(100% - 40px);
+    margin-left: 5px;
+}
+
+.NameOfOffencesRowTables strong {
+    text-transform: capitalize;
+    font-size: 17px;
+    color: #333;
+    padding-right: 10px;
+}
+
+.NameOfOffencesRowTables span {
+    font-size: 14px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+
+.CarnumberRowTable{
+    font-weight: 600;
+    color: #333;
+}

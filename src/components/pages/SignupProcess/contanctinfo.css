@@ -1,0 +1,222 @@
+.contactInfoMain{
+    width: 100%;
+}
+
+.ContentHolderContactConfiguration{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+.TopLogoAreaContactConfiguration{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    border-bottom: 1px #008134 solid;
+    margin-bottom: 15px;
+}
+
+.TopLogoImageContactConfiguration{
+    height: 100%;
+}
+
+.PageHeaderContactConfiguration{
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.formHolderContactConfiguration{
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #FAF4F7;
+    width: 95%;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 2px rgba(0, 129, 52, 0.25);
+    /* box-shadow: 1px 1px 10px -2px #00813421; */
+}
+
+.FormContactConfiguration{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.FormContentHolderContactConfiguration{
+    width: 80%;
+    max-width: 450px;
+    min-width: 320px;
+}
+
+.buttonControlsContactSection{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.greenContactDotLong{
+    width: 5%;
+    height: 7px;
+    border-radius: 4px;
+    background-color: #008134;
+}
+
+.ButtonHolderContactConfig{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+.ButtonGoBackContactConfig{
+    background-color: transparent;
+    border: #008134 1px solid;
+    color: #008134;
+    height: 35px;
+    display: block;
+    width: 100px;
+    margin-right: 25px;
+    border-radius: 18px;
+}
+
+.ButtonContinueContactConfig{
+    color: #ffffff;
+    height: 35px;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    width: 100px;
+    border-radius: 18px;
+}
+
+.changeContactVerCon{
+    width: 150px;
+    font-size: 15px;
+}
+
+.InfoAboutInputsContverifyConfig{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.SendCodeAgainSectionContaverfy{
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.DidntgetPromptDiv{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.sendAgainButtonContacverfy{
+    background-color: transparent;
+    font-size: 14px;
+    color: #008134;
+    font-weight: 600;
+}
+.ButtonHolderDomainConfig{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.ButtonHaveDomainConfig{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #008134;
+    color: #008134;
+    border-radius: 20px;
+}
+.ButtonNeedDomainContinueDomainConfig{
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.domainConfigTextIntro{
+    text-align: left;
+    font-size: 15px;
+}
+
+.PasswordStrengthHolder{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.PasswordStrengthText{
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.colorCodeStrength{
+    height: 15px;
+    width: 50px;
+    border-radius: 4px;
+    background-color: #ff3636;
+    margin-right: 10px;
+}
+
+.NameofStrength{
+    font-size: 14px;
+}
+
+.strongCodeStrength{
+    background-color: #008134;
+}
+
+.domainNameInputBlock{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.domainNameInputHolder{
+    width: calc(100% - 60px);
+    margin-right: 5px;
+}
+
+.extensionNameDomain{
+    width: 55px;
+}
+
+.SummaryHead{
+    font-size: 28px;
+    color: #008134;
+    margin-bottom: 20px;
+}
+.summaryPlanConfigHolder{
+    margin-bottom: 20px;
+}

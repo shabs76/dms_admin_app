@@ -1,0 +1,37 @@
+.UserEditCompMain{
+    width: 100%;
+}
+
+.EditUserDetailsForm{
+    width: 100%;
+}
+
+.inputsUserEditHolder{
+    width: 100%;
+}
+
+.buttonHolderEditUserEditComp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.buttonCancelEditUserEdit{
+    height: 35px;
+    width: 70px;
+    background-color: transparent;
+    border: 1px solid #008134;
+    border-radius: 18px;
+    color: #008134;
+    margin-right: 10px;
+}
+
+.buttonUpdateEditUserEdit{
+    height: 35px;
+    width: 80px;
+    border-radius: 18px;
+    color: #ffffff;
+    margin-right: 10px;
+}

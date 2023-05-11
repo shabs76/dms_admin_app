@@ -1,0 +1,19 @@
+.UserContMain{
+    width: 100%;
+    padding-right: 20px;
+}
+
+.UserTopSectionAddUserCont{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.SectionNameAddUserCont{
+    font-size: 2.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+.AddUserContFormHolder{
+    width: 100%;
+    max-width: 420px;
+}

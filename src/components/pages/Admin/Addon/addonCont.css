@@ -1,0 +1,71 @@
+.AddonContMain{
+    width: 100%;
+    padding-right: 20px;
+}
+
+.AddonTopSectionAddonCont{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.SectionNameAddonCont{
+    font-size: 2.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.ButtonNewOldHolderAddon{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.addonTypeSelector{
+    height: 35px;
+    border-radius: 18px;
+    width: 170px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.allAddonButtonSelector{
+    color: #ffffff;
+}
+
+.newAddonButtonSelector{
+    border: 1px solid #8EC9F1;
+    color: #8EC9F1;
+    background-color: transparent;
+}
+
+.addonTypeSelector:hover {
+    background-color: #8EC9F1;
+    color: #ffffff;
+}
+
+.AddonHolderMain{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.AddonCompLoopHolder{
+    margin-right: 15px;
+    margin-bottom: 20px;
+    max-width: 270px;
+    width: 100%;
+}
+
+.CreateNewAddonPrice{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.HeadCreateNewAddonPrice{
+    color: #333;
+}

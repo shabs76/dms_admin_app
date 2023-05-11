@@ -1,0 +1,56 @@
+.FormEnterpriseMain{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 650px;
+    min-height: 850px;
+    box-shadow: 0 3px 4.7px 0.3px rgba(0,0,0,0.24);
+}
+
+form {
+    width: 100%;
+}
+
+.PersonalSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.sideSectionInfo{
+    width: 200px;
+}
+
+.SectionHeaderFormEnterprise{
+    color: #545454;
+}
+
+.FormInputEnterprise{
+    width: calc(100% - 200px);
+}
+
+.ButtonHolderFormEnterprise{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HomeButtonFormEnterprise{ 
+    background-color: #BEE8E1;
+}
+
+.HomeButtonFormEnterprise span {
+    color: #008134;
+    font-size: 40px;
+}
+
+.ButtonFormEnterprise{
+    height: 45px;
+    width: 130px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}

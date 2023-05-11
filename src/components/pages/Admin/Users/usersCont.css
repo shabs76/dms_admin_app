@@ -1,0 +1,38 @@
+.UserContMain{
+    width: 100%;
+    padding-right: 20px;
+}
+
+.UserTopSectionUserCont{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.SectionNameUserCont{
+    font-size: 2.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.searchSectionHolder{
+    width: 100%;
+    max-width: 420px;
+}
+
+.UsersHolderContainerUserCont{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.UserCompLoopHolderUserCont{
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.headingOnContentSectionUserCont{
+    width: 100%;
+    margin-bottom: 15px;
+}

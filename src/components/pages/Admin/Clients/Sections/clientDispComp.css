@@ -1,0 +1,150 @@
+.ClientDispCompMain{
+    width: 100%;
+    max-width: 330px;
+    padding-top: 25px;
+}
+
+.ClientDispContentHolder{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 43px;
+    padding-left: 15px;
+}
+
+.ImagLatterProfileHolderClientDisp{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: #bee8e1;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 6px 5px rgba(0,0,0,0.2);
+    top: -25px;
+    left: 20px;
+}
+
+.ImagLatterProfileClientDisp{
+    color: #008134;
+}
+
+.ClientNameSectionClientDispComp{
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.ClientNameClientDispComp{
+    font-size: 1.3rem;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.ClientDetailsListClientDispComp{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.clientButtonViewDispComp{
+    position: absolute;
+    right: 10px;
+    top: -30px;
+    color: #008134;
+    font-size: 15px;
+    width: 80px;
+    height: 25px;
+    border-radius: 13px;
+    background-color: #bee8e1;
+}
+.ClientDetailListClientDispComp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.ClientDetailTitleClientDispComp{
+    font-size: 17px;
+    font-weight: 500;
+    color: #444;
+}
+
+.ClientDetailValueClientDispComp{
+    font-size: 15px;
+    color: #444;
+    margin-left: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ButtonActsClientDispComp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.ClientDispButtons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #bee8e1;
+    border: #ff3636 solid 1px;
+}
+
+.editButtonClientDisp{
+    margin-right: 10px;
+    border: #008134 solid 1px;
+}
+
+.ClientDispButtons span{
+    font-size: 20px;
+    color: #ff3636;
+}
+
+.editButtonClientDisp span{
+    color: #008134;
+}
+
+.freezeButtonClientDisp{
+    margin-right: 10px;
+    border:  1px solid #000;
+}
+
+.freezeButtonClientDispActive {
+    margin-right: 10px;
+    border:  1px solid orange;
+}
+
+.freezeButtonClientDispActive span {
+    color: orange;
+}
+.freezeButtonClientDisp span {
+    color: #000;
+}
+
+.paymentActivateClient{
+    background-color: orange;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.paymentActivateClient span {
+    color: #ff3636;
+}

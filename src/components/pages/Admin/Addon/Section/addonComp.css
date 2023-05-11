@@ -1,0 +1,77 @@
+.AddonCompMain{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.addonCompTopSect{
+    width: 100%;
+}
+
+.addonCompNameSect{
+    font-size: 17px;
+    color: #505050;
+}
+
+.MainListAddonFeatures{
+    margin-top: 5px;
+    padding: 0;
+    list-style: none;
+    padding-left: 5px;
+}
+
+.ListItemAddonFeature{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.ItemTitleAddonComp{
+    font-weight: 500;
+    color: #505050;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.ItemValueAddonComp{
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+}
+
+.AddonButtonHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.ButtonAddonComp{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #bee8e1;
+    border: 1px solid #008134;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.ButtonAddonComp span{
+    color: #008134;
+    font-size: 22px;
+}
+
+.deleteAddonCompButtn{
+    border: 1px solid #ff3636;
+    margin-left: 10px;
+}
+
+.deleteAddonCompButtn span{
+    color: #ff3636;
+}

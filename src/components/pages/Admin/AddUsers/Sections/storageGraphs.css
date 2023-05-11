@@ -1,0 +1,62 @@
+.StorageGraphsMain{
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.PieGraphHolderStorageGraph{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.ProgressBarHolderStorageGraph{
+    width: 80px;
+    margin: 0 auto;
+}
+
+.InnerContentHolderStorage{
+    width: 100%;
+}
+
+.IconHolderProgressCircular{
+    width: 100%;
+    text-align: center;
+}
+
+.IconHolderProgressCircular span{
+    font-size: 20px;
+    color: #008134;
+}
+
+.PercentageHolderProgressCircular{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.TitlePieGraphStorageGraph{
+    margin-top: 7px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+}
+
+.realStorageValueShowSection{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.StorageValueDispalyStorageGraphs{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.TextSearchMainDiv{
+    width: 100%;
+    height: 45px;
+}
+
+.formSearchText{
+    width: 100%;
+    height: 100%;
+}
+
+.contentTextSearch{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #bee8e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    align-content: center;
+}
+
+.inputTextSearch{
+    width: calc(100% - 45px);
+    border: none;
+    height: 100%;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.SubmitTextSearchButton{
+    width: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #bee8e1;
+}
+.SubmitTextSearchButton span{
+    color: #000;
+}

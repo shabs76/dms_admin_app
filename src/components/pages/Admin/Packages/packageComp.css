@@ -1,0 +1,75 @@
+.PackageContMain{
+    width: 100%;
+    padding-right: 20px;
+}
+
+.PackageTopSectionPackageCont{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.SectionNamePackageCont{
+    font-size: 2.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.PackageHolderMain{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.PriceStripHolderLoopPackageComp{
+    width: 100%;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.ButtonNewOldHolderPlan{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 25px;
+}
+
+.PlanTypeSelector{
+    height: 35px;
+    border-radius: 18px;
+    width: 170px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.allPlanButtonSelector{
+    color: #ffffff;
+}
+
+.newPlanButtonSelector{
+    border: 1px solid #008134;
+    color: #008134;
+    background-color: transparent;
+}
+
+.PlanTypeSelector:hover {
+    background-color: #008134;
+    color: #ffffff;
+}
+
+.CreateNewPlanPrice{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.HeadCreateNewPlanPrice{
+    color: #333;
+}
+.createNewPlanHolder{
+    width: 100%;
+    max-width: 350px;
+}

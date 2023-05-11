@@ -2,37 +2,88 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.TopPCNavigation{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 290;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.TopMobNavigationBar{
+  display: none;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 290;
+}
+.pageContentHolder{
+  width: 100%;
+  padding-top: 55px;
 }
 
-.App-header {
-  background-color: #282c34;
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.transluteGreenCircles{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: transparent;
+  border: 60px solid #63b385;
+  border-radius: 50%;
+}
+
+.SlidersStyles{
+  width: 100%;
+}
+
+.PhoneNumberInputHolder{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.phoneInputContainer{
+  width: 100%;
+}
+
+.PhoneNumberLabelContactConfig{
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.phoneInputClassPhone {
+  width: 100% !important;
+  height: 40px !important;
+  border: 1px solid #8EC9F1 !important;
+  border-radius: 7px !important;
+}
+
+.flagDropDownCustomPhone{
+  height: 40px !important;
+  border: 1px solid #8EC9F1 !important;
+  border-right: 0 solid #8EC9F1 !important;
+  border-radius: 7px 0 0 7px !important;
+  background-color: white !important;
+}
+
+.UsLogMainDiv{
+  width: 100%;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* small smartphones */
+
+@media only screen and (max-width: 767px) {
+  .TopMobNavigationBar{
+    display: block;
+  }
+  .TopPCNavigation{
+    display: none;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

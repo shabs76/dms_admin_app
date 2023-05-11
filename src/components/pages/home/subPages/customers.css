@@ -1,0 +1,55 @@
+.CustomersMain{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CustomerContentHolder{
+    width: 80%;
+}
+
+.CustomersHeader{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.CustomersIndVHolder{
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    scrollbar-color: #E3F3E4 #FAFAFA;
+    scrollbar-width: thin;
+}
+
+.CustomersIndVHolder::-webkit-scrollbar {
+    width: 5px; /* Width of scrollbar */
+    height: 5px; /* Height of scrollbar */
+}
+
+.CustomersIndVHolder::-webkit-scrollbar-track {
+    background-color: #FAFAFA; /* Color of the track */
+}
+
+.CustomersIndVHolder::-webkit-scrollbar-thumb {
+    background-color: #E3F3E4; /* Color of the thumb */
+    border-radius: 3px; /* Rounded corners */
+}
+
+.CustomersIndVHolder::-webkit-scrollbar-thumb:hover {
+    background-color: #999999; /* Color of the thumb on hover */
+}
+  
+  /* Style the thumb on hover */
+.CustomersIndVHolder::-moz-scrollbar-thumb:hover {
+    background-color: #999999; /* Color of the thumb on hover */
+}
+
+.CustomerDivLooper{
+    width: 150px;
+    margin-right: 20px;
+}

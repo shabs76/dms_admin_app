@@ -1,0 +1,58 @@
+.ThankPageMain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.flexHolderThankPage{
+    width: 100%;
+    max-width: 450px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.TrophyHolderThankPage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ImageTrophyThankPage{
+    height: 100px;
+}
+
+.ThankPageHead{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color: #008134;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.ThankPageDescript{
+    color: #333333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.buttonHolderThankPage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.LoginThankPage{
+    height: 45px;
+    width: 150px;
+    border-radius: 23px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+}

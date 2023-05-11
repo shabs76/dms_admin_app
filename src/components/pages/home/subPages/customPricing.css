@@ -1,0 +1,46 @@
+.CustomPricingMain{
+    width: 100%;
+    border: 1px solid #008134;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.CustomPrincingHolder{
+    width: 100%;
+}
+
+.CustomPricingHeader{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.CustomPricingPricingSec{
+    margin-top: 15px;
+}
+
+.StartWordCustmPricingSec{
+    font-size: 15px;
+}
+
+.PriceValCustmPricingSec{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 6px;
+}
+
+.CustomPricingPara{
+    font-size: 15px;
+}
+
+.CustomPricingButtonholder{
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CustomPricingButton{
+    height: 40px;
+    width: 200px;
+    color: #ffffff;
+    font-size: 18px;
+}

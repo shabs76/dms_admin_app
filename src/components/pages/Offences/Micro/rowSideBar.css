@@ -1,0 +1,39 @@
+.RowSideBarMain{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding: 5px 0;
+}
+
+.iconHolderRowSideBar{
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 5px;
+}
+
+.iconHolderRowSideBar span {
+    font-size: 22px;
+    color: #008134aa;
+}
+
+.valueHolderRowSideBar{
+    width: 100%;
+}
+
+.valueHolderRowSideBar strong {
+    color: #333;
+    padding-right: 5px;
+}
+
+.valueHolderRowSideBar span{
+    color: #333;
+    font-size: 14px;
+}

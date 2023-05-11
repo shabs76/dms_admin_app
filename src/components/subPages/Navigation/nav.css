@@ -1,0 +1,201 @@
+.TopNavigationMain{
+    width: 100%;
+    background-color: #ffffff;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0px;
+    z-index: 290;
+    padding-right: 0;
+}
+
+.logoSectionTopNav{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #008134fc;
+}
+
+.logoSectionTopNav img {
+    height: 100%;
+}
+
+.linksSectionTopNav{
+    width: calc(65% - 130px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    border-bottom: 1px solid #008134fc;
+}
+
+.LinkHolderDivTopNav{
+    height: 25px;
+    margin-right: 35px;
+}
+
+.LinkDivTopNav{
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    font-weight: 500;
+    color: #444;
+}
+
+.ActionSeactionTopNav{
+    width: calc(35% - 20px);
+    display: flex;
+    align-content: center;
+    align-content: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    background-color: #008134fc;
+    border-bottom: 1px solid #ffffff;
+    height: 100%;
+}
+
+.buttonHolderTopNavActions{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    align-content: center;
+    align-items: center;
+}
+
+.GetStartedButtonTopNav{
+    background-color: #ffffff;
+    height: 40px;
+    border-radius: 20px;
+    width: 120px;
+    border: 1px solid #ffffff;
+}
+
+.loginButtonTopNav{
+    border: 1px solid #ffffff;
+    height: 40px;
+    width: 120px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.TopNavMobileMain{
+    width: 100%;
+    background-color: #ffffff;
+    height: 55px;
+    padding: 0px;
+    z-index: 290;
+    padding-right: 0;
+    border-bottom: #008134 1px solid;
+}
+
+.VisibleContentHolder{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+.leftSectionHumber{
+    height: 100%;
+}
+
+.leftSectionHumber span{
+    font-size: 36px;
+    color: #008134;
+}
+
+.centerLogoSection{
+    height: 100%;
+}
+
+.LogoNavMobImage{
+    height: 100%;
+}
+
+.getStartedButtonMobileNav{
+    height: 35px;
+    width: 70px;
+    border-radius: 17px;
+    color: #ffffff;
+}
+
+.MenubuttonMobileNav{
+    background-color: transparent;
+}
+
+.InvisibleContentHolderMobilenav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    overflow-y: hidden;
+    height: 0;
+    transition: 0.5s;
+}
+
+.closeButtonHolderMobileNav{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    padding: 7px;
+}
+
+.closeButtonMobileNav{
+    height: 100%;
+    width: 40px;
+    background-color: transparent;
+}
+
+.closeButtonMobileNav span{
+    font-size: 36px;
+}
+
+.LinksHolderMobileNav{
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.linkHolderDivMobilenav{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.LinkDivTopMobNav{
+    font-size: 20px;
+}
+
+.LoginbuttonHolder{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.loginButtonMobileNav{
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    width: 140px;
+    border-radius: 20px;
+}
