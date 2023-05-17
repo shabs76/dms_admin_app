@@ -8,7 +8,7 @@ import { AdminFunctions } from '../../../sharedFunctions/adminFunctions';
 // api call function
 import { sendToBackendPost } from '../../../sharedFunctions/apiCall';
 // redux function
-import { activatePopup } from '../../../redux/action/popupActions';
+import { activatePopup, deactivatePopup } from '../../../redux/action/popupActions';
 import { addAdminData } from '../../../redux/action/adminActions';
 // components
 import SideBarCont from './SideBar/SideBarCont';
@@ -19,8 +19,10 @@ function Admin() {
     const AdminState = useSelector((state) => state.AdminReducer);
 
     const getAdminData = async () => {
+        dispatch(activatePopup('loading', { text: 'loading data...' }));
         const adminData = await sendToBackendPost('/gatway/us.php', { act: 'get_data' });
         console.log(adminData);
+        dispatch(deactivatePopup());
         if (typeof (adminData) === 'object' && adminData['state'] === 'error') {
             if (typeof (adminData['data']) === 'string' && adminData['data'] === 'not login') {
                 navigate('/');

@@ -1,26 +1,69 @@
-import React, { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import React, { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import './offences.css';
-// import fake data
-import { offencesData } from './offencesData';
+// static functions
+import { sendToBackendPost } from '../../../sharedFunctions/apiCall';
 // redux function
 import { addAllOffences } from '../../../redux/action/offencesActions';
+import { activatePopup, deactivatePopup } from '../../../redux/action/popupActions';
 // components
 import SideMoreInfo from './SideMoreInfo/SideMoreInfo';
 import RowTableOffence from './Micro/RowTableOffence';
+import AddVehicle from './AddVehicle/AddVehicle';
+import _ from 'lodash';
 
 function Offences() {
+    const [vehiclesData, setVehilcesData] = useState('');
+    const [viewState, setViewState] = useState('display');
+    const [ownerDetails, setOwnerDetails] = useState('');
+    const GenData = useSelector((state) => state.AdminReducer);
+    const activeOwner = GenData.active_owner;
     const dispatch = useDispatch();
     
+    const fetchOwnerVehicles = async (ownerid) => {
+        const DataSend = {act: 'owner vehicles', owner_id: ownerid};
+        dispatch(activatePopup('loading', { text: 'Loading data ...'}));
+        const vehicles = await sendToBackendPost('/gatway/us.php', DataSend);
+        dispatch(deactivatePopup());
+        if (typeof (vehicles) === 'object' && typeof (vehicles.data) === 'object') {
+            setVehilcesData(vehicles.data);
+            dispatch(addAllOffences(vehicles.data));
+        } else if (typeof (vehicles) === 'string') {
+            dispatch(activatePopup('error', { head: 'Error', text: vehicles.data }));
+        } else {
+            dispatch(activatePopup('info', { head: 'Info!', text: 'No Vehicles Found' }));
+            setVehilcesData('');
+        }
+    }
+    const findOwnerDetails = (owner_id) => {
+        const owners = GenData.data.owners.data;
+        Object.keys(owners).map((owner) => {
+            if (owner === owner_id) {
+                setOwnerDetails(owners[owner]);
+            }
+            return true;
+        });
+    }
     useEffect(() => {
-        dispatch(addAllOffences(offencesData));
+        if (activeOwner !== '') {
+            fetchOwnerVehicles(activeOwner);
+            findOwnerDetails(activeOwner);
+        } else if (typeof (GenData.data) !== 'undefined' && typeof (GenData.data.vehicles) !== 'undefined' && typeof (GenData.data.vehicles.data) !== 'undefined') {
+            setVehilcesData(GenData.data.vehicles.data);
+            dispatch(addAllOffences(GenData.data.vehicles.data));
+            setOwnerDetails('');
+        }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [])
+    }, [activeOwner, GenData]);
     return (
         <div className="OffencesMain">
             <div className="TopNavigatOffences">
                 <div className="headSectionOffences">
-                    <h1 className="headerOffences">Registered Vehicles</h1>
+                    <h1 className="headerOffences">
+                        {
+                            `${ownerDetails === '' ? 'Registered' : ownerDetails.fname+' '+ownerDetails.lname} Vehicles`
+                        }
+                    </h1>
                 </div>
             </div>
             <div className="contentOffencesHolder">
@@ -36,23 +79,33 @@ function Offences() {
                                 </button>
                             </div>
                         </div>
-                        <ul className="OffencesUnorderList">
+                        <ul style={viewState === 'display' ? {} : { display: 'none' }} className="OffencesUnorderList">
                             {
-                                Object.keys(offencesData).map((vehicle) => (
-                                    <li className="liOffences" key={offencesData[vehicle].VehicleId}>
+                                typeof (vehiclesData) === 'object' && !_.isEmpty(vehiclesData)
+                                ? Object.keys(vehiclesData).map((vehicle) => (
+                                    <li className="liOffences" key={vehiclesData[vehicle].vehicle_id}>
                                         <RowTableOffence
-                                            VehicleType={offencesData[vehicle].VehicleType}
-                                            carNumber={offencesData[vehicle].carnumber}
-                                            VehicleId={offencesData[vehicle].VehicleId}
-                                            Manufature={offencesData[vehicle].Manufacture}
+                                            VehicleType={vehiclesData[vehicle].model}
+                                            carNumber={vehiclesData[vehicle].license_no}
+                                            VehicleId={vehiclesData[vehicle].vehicle_id}
+                                            Manufature={vehiclesData[vehicle].manufacture}
                                         />
                                     </li>
                                 ))
+                                : (<h2 className="NoDatafoundHeader">No vehicles Found</h2>)
                             }
                         </ul>
-                        <button className="AddVehicle">
+                        <div  style={viewState !== 'display' ? {} : { display: 'none' }} className="CreateVehicleForm">
+                            <AddVehicle />
+                        </div>
+                        <button onClick={() => setViewState('add')} type="button" style={activeOwner !== '' && viewState === 'display' ? {} : { display: 'none' }} className="AddVehicle">
                             <span className="material-symbols-rounded">
                                 add
+                            </span>
+                        </button>
+                        <button onClick={() => setViewState('display')} type="button" style={activeOwner !== '' && viewState !== 'display' ? {} : { display: 'none' }} className="AddVehicle">
+                            <span className="material-symbols-rounded">
+                                close
                             </span>
                         </button>
                     </div>

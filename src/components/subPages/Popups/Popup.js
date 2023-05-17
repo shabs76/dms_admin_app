@@ -4,7 +4,6 @@ import './popup.css';
 // actions
 import { deactivatePopup } from '../../../redux/action/popupActions';
 // components
-import StartPlanSelector from './GetStarted.js/StartPlanSelector';
 import Login from './Login/Login';
 import ErrorPop from './InfoNError/ErrorPop';
 import UsLogin from './Login/UsLogin';
@@ -12,14 +11,14 @@ import OtpLogin from './Login/OtpLogin';
 import PassConfirm from './Login/PassConfirm';
 import LoadingPopUp from './LoadingPop/LoadingPopUp';
 import ActivatePannel from './ActivatePannel/ActivatePannel';
+import PreviewEdited from './image_edit/PreviewEdited';
+import ImageCropFlex from './image_edit/ImageCropFlex';
 
 function Popup() { // this componet hold content of different popupTypes and decide which popup mode to display
     const PopupData = useSelector((state) => state.PopupReducer);
     const dispatch = useDispatch();
-    let content = (<StartPlanSelector />);
-    if(PopupData.mode === 'plan') {
-        content = (<StartPlanSelector />);
-    } else if (PopupData.mode === 'login') {
+    let content = (<div>hello</div>);
+    if (PopupData.mode === 'login') {
         content = (<Login />);
     } else if (PopupData.mode === 'us_login') {
         content = (<UsLogin />);
@@ -51,6 +50,18 @@ function Popup() { // this componet hold content of different popupTypes and dec
                 text_info={PopupData.data.text}
             />
         );
+    } else if (PopupData.mode === 'croppImagePreview') {
+        content = (
+            <PreviewEdited
+                buttn1Fun={PopupData.data.minorFun}
+                buttn1Name={PopupData.data.MinorButnName}
+                buttn2Fun={PopupData.data.MainFun}
+                buttn2Name={PopupData.data.MainButnName}
+                iconMainName={PopupData.data.MainIconName}
+            />
+        );
+    } else if (PopupData.mode === 'croppImageFlex') {
+        content = (<ImageCropFlex/>);
     }
     return (
         <div className="PopupCompMain">

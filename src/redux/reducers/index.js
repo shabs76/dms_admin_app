@@ -6,6 +6,7 @@ import signupReducer from './signupReducer';
 import AdminReducer from './adminReducer';
 import GenInfoReducer from './genInfoReducer';
 import OffenceReducer from './offencesReducer';
+import CropReducer from './cropReducer';
 
 const allreducers = combineReducers({
     ActiveSearchRed,
@@ -15,6 +16,7 @@ const allreducers = combineReducers({
     AdminReducer,
     GenInfoReducer,
     OffenceReducer,
+    CropReducer,
 });
 
 export default allreducers;

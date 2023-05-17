@@ -12,7 +12,7 @@ import SelectInput from '../../../../subPages/Micros/SelectInput';
 function CreateAddon() {
     const dispatch = useDispatch();
     const [InputClassvals, setInputClassVal] = useState({ inputName: '', nameClass: '' });
-    const [formValues, setFormValues] = useState({ act: 'create addon price', type: 'active' });
+    const [formValues, setFormValues] = useState({ act: 'create admin'});
     const getvaluesForm = (Inputname, value) => {
         const tempFormVal = formValues;
         // check if it the check value
@@ -33,6 +33,10 @@ function CreateAddon() {
     };
     const submitForm = (e) => {
         e.preventDefault();
+        if (typeof (formValues.phone) === 'undefined' || formValues.phone.length !== 12) {
+            dispatch(activatePopup('error', { head: 'Phone Error!', text: 'Inavalid phone number' }));
+            return false;
+        }
         dispatch(activatePopup('pass_confirm', { data: formValues, link: '/gatway/us.php' }));
     }
     const adminsOp = [
@@ -73,8 +77,8 @@ function CreateAddon() {
                     />
                     <TextInputBlock
                         InputName="email"
-                        LabelName="First Name"
-                        placeHolder="e.g. queen"
+                        LabelName="Email "
+                        placeHolder="e.g. queen@brentles.com"
                         Type="email"
                         InputStyleClass={InputClassvals.inputName === 'email' ? InputClassvals.nameClass : ''}
                         defaultVal=""
@@ -99,9 +103,9 @@ function CreateAddon() {
                         />
                     </div>
                     <SelectInput
-                        InputName="admin_type"
+                        InputName="type"
                         LabelName="Admin Type"
-                        InputStyleClass={InputClassvals.inputName === 'admin_type' ? InputClassvals.nameClass : ''}
+                        InputStyleClass={InputClassvals.inputName === 'type' ? InputClassvals.nameClass : ''}
                         defaultVal=""
                         ChangeFun={getvaluesForm}
                         options={adminsOp}

@@ -136,6 +136,12 @@
     right: 10px;
 }
 
+.CreateVehicleForm{
+    width: 100%;
+    max-width: 450px;
+    padding-top: 50px;
+}
+
 .AddVehicle{
     z-index: 150;
     width: 55px;

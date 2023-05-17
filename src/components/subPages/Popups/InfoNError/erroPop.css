@@ -27,6 +27,10 @@
     color: #ff3636;
 }
 
+.InfoNameStyleErrorPop{
+    color: #008134;
+}
+
 .ErrorInfoContentHolderErrorPop{
     width: 100%;
     text-align: center;

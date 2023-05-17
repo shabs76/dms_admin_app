@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
 import './clientComp.css';
 
+// redux fun
+import { changeViewSection, ChooseVehicles } from '../../../../../redux/action/adminActions';
 // components
 import ClientDispComp from './ClientDispComp';
 import ClientEditComp from './ClientEditComp';
@@ -9,11 +12,15 @@ import ClientEditComp from './ClientEditComp';
 function ClientComp({
     bname, email, phone, IdType, Nvehicles, Nida, state, clientId,
 }) {
+    const dispatch = useDispatch();
     const [editState, setEditState] = useState(false);
     const activateEditnVehicles = (state) => {
         if (state === 'edit') {
             setEditState(true);
             return 0
+        } else if (state === 'vehicles') {
+            dispatch(changeViewSection('Plans'));
+            dispatch(ChooseVehicles(clientId));
         }
     }
     const deactivateEdit = () => {

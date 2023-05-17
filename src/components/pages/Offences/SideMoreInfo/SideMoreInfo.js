@@ -18,7 +18,7 @@ function SideMoreInfo() {
         Object.keys(Offences).map((offenc) => {
             if (offenc === OffenceIdactv) {
                 Offence = Offences[offenc];
-                url = Offences[offenc].Image;
+                url = Offences[offenc].vehicle_photo;
             }
             return true;
         });
@@ -34,8 +34,8 @@ function SideMoreInfo() {
                 <div className="sideBarMoreInfo">
                     <div className="driverInfoSideMoreInfo">
                         <div className="driverImageHolderSideMore">
-                            <img src={Offence.Owner.passport} className="driverImgSideMore" alt="driver passport size" />
-                            <h2 className="DriverNameSideInfo">{Offence.Owner.name}</h2>
+                            <img src={Offence.owner_photo} className="driverImgSideMore" alt="driver passport size" />
+                            <h2 className="DriverNameSideInfo">{`${Offence.fname} ${Offence.lname}`}</h2>
                         </div>
                         <div className="driverInfoTextHolder">
                             <div className="driverInfoSideMore">
@@ -44,7 +44,7 @@ function SideMoreInfo() {
                                 </strong>
                                 <span>
                                     {
-                                        Offence.Owner.Id
+                                        Offence.id_no
                                     }
                                 </span>
                             </div>
@@ -54,7 +54,7 @@ function SideMoreInfo() {
                                 </strong>
                                 <span>
                                     {
-                                        Offence.Owner.id_type
+                                        Offence.id_type
                                     }
                                 </span>
                             </div>
@@ -64,7 +64,7 @@ function SideMoreInfo() {
                                 </strong>
                                 <span>
                                     {
-                                        Offence.Owner.phone
+                                        Offence.phone_number
                                     }
                                 </span>
                             </div>
@@ -75,23 +75,23 @@ function SideMoreInfo() {
                         <div className="otherListHolder">
                             <RowSideBar
                                 Name="Manufature:"
-                                value={Offence.Manufacture}
+                                value={Offence.manufacture}
                             />
                             <RowSideBar
                                 Name="Model:"
-                                value={Offence.VehicleType}
+                                value={Offence.model}
                             />
                             <RowSideBar
                                 Name="Chassis No:"
-                                value={Offence.ChasisNum}
+                                value={Offence.chassis_no}
                             />
                             <RowSideBar
                                 Name="Engine No:"
-                                value={Offence.EngineNum}
+                                value={Offence.engine_no}
                             />
                             <RowSideBar
                                 Name="License No:"
-                                value={Offence.carnumber}
+                                value={Offence.license_no}
                             />
                         </div>
                     </div>

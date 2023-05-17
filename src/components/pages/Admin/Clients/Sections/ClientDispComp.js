@@ -17,7 +17,7 @@ function ClientDispComp({
                     </h1>
                 </div>
                 <div className="ClientNameSectionClientDispComp">
-                    <button className="clientButtonViewDispComp">Vehicles</button>
+                    <button className="clientButtonViewDispComp" type="button" onClick={() => editFun('vehicles')}>Vehicles</button>
                     <h2 className="ClientNameClientDispComp">
                         {
                             bname 
@@ -87,7 +87,7 @@ function ClientDispComp({
                     </li>
                 </ul>
                 <div className="ButtonActsClientDispComp">
-                    <button className="ClientDispButtons editButtonClientDisp" type="button" onClick={() => editFun()}>
+                    <button className="ClientDispButtons editButtonClientDisp" type="button" onClick={() => editFun('edit')}>
                         <span className="material-symbols-rounded">
                             edit
                         </span>
@@ -114,7 +114,6 @@ ClientDispComp.propTypes = {
     phone: PropTypes.string.isRequired,
     Nida: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
     Nvehicles: PropTypes.number.isRequired,
-    Unumber: PropTypes.number.isRequired,
     editFun: PropTypes.func.isRequired,
     clientId: PropTypes.string.isRequired,
     IdType: PropTypes.string.isRequired,
