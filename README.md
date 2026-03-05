@@ -38,7 +38,7 @@ Backend (dms_express_app)
 Admin UI (this repository)
 ```
 
-> The UI uses `sendToBackendPost` (`src/sharedFunctions/apiCall.js`) with `withCredentials: true` and routes like `/gatway/`, `/gatway/us.php`, and `/gatway/client.php`. In local development you can adjust the `proxy` entry in `package.json` (currently `http://localhost`) to match the backend host/port (for example `http://localhost:5200`).
+> The UI uses `sendToBackendPost` (`src/sharedFunctions/apiCall.js`) with `withCredentials: true` and routes like `/gatway/` (spelled as in the codebase), `/gatway/us.php`, and `/gatway/client.php`. In local development you can adjust the `proxy` entry in `package.json` (currently `http://localhost`) to match the backend host/port (for example `http://localhost:5200`).
 
 ## Local Development
 
